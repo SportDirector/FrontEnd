@@ -1,7 +1,7 @@
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
     /*NAVIGATION START*/
     .main_scrin {
-        background-size: 150% 100%;
+        background-size: 180% 100%;
         background-position: center;
     }
     .logo {
@@ -15,8 +15,14 @@
         height: 48px;
     }
     .main_nav {
+        flex-direction: column;
+        align-items: flex-start;
         padding: 25px 15px 0;
-        margin-bottom: 160px;
+        margin-bottom: 120px;
+    }
+    .main_menu {
+        align-self: center;
+        /* Мені ніяка позиція не подобається */
     }
     .menu_item {
         padding: 10px 20px;
@@ -24,7 +30,10 @@
     /*NAVIGATION END*/
     /*MAIN TITLE S*/
     .main_title {
-        font-size: 60px;
+        font-size: 50px;
+    }
+    .main_subtitle {
+        font-size: 13px;
     }
     /*MAIN TITLE E*/
     /*POPULAR PLACE S*/
@@ -38,17 +47,25 @@
         justify-content: space-around;
     }
     .card_text {
-		bottom: 40px;
+		bottom: 30px;
+    }
+    .popular_place_card:hover .card_text {
+        bottom: 30px;
     }
     .box--title--card {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.popular_place_card:hover .box--title--card {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.box_subtitle {
-		color: #ffffff;
-	}
+        color: #ffffff;
+        margin-bottom: 50px;
+    }
+    .popular--place--btn {
+        font-size: 12px;
+        padding: 13px 20px;
+    }
 	.popular_place_card {
 		margin-bottom: 10px;
 	}
@@ -68,17 +85,23 @@
     }
     /*POPULAR PLACE E*/
     /*FILTER S*/
+    .search_field {
+        margin-bottom: 30px;
+    }
     .filter_box {
-        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .filter_type {
+        margin-bottom: 15px;
     }
     /*FILTER E*/
     /*PLACE CARD S*/
     .place_card_block {
         justify-content: center;
-        width: 100%;
     }
     .place_card   {
-        width: 32%;
+        width: 45%;
     }
     .place_card:not(:nth-child(3n)) {
         margin-right: 0px;
@@ -91,7 +114,8 @@
         margin-bottom: 20px;
     }
     .place--card--subtitle {
-		color: #606f81;
+        color: #606f81;
+        margin-bottom: 27px;
     }
     .place--card--btn {
 		margin-bottom: 0;
@@ -114,8 +138,8 @@
 		display: none;
 	}
     .describe_img {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
         margin: 0 auto 40px;
     }
     .city_descride {
@@ -128,9 +152,9 @@
     /*CITY INFO E*/
     /*SING UP S*/
     .block_sing_up {
-		background-size: cover;
+        background-size: cover;
 		background-position: center;
-	    padding: 100px 0;
+        padding: 100px 0;
     }
     .newsletter {
         font-size: 20px;
