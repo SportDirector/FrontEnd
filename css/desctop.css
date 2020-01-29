@@ -36,3 +36,8 @@
         font-size: 20px;
     }
 }
+@media (min-width: 1200px) and (max-width: 1499.98px) {
+    .popular_place_card:hover .box--title--card {
+        font-size: 34px;
+    }
+}
