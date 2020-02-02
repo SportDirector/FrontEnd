@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     /*NAVIGATION START*/
-    .main_scrin {
+    .top_section {
         background-size: 150% 100%;
         background-position: center;
     }
@@ -23,7 +23,7 @@
     }
     /*NAVIGATION END*/
     /*MAIN TITLE S*/
-    .main_title {
+    .section_title {
         font-size: 60px;
     }
     /*MAIN TITLE E*/
@@ -34,7 +34,7 @@
 	.popular_place_card {
         width: 30%;
     }
-    .place {
+    .popular_place_box {
         justify-content: space-around;
     }
     .card_text {
@@ -60,7 +60,7 @@
 	}
     /*POPULAR PLACE E*/
     /*SEARCH S*/
-    .search {
+    .search_block {
 		padding: 25% 0 0;
     }
     .search_box {
@@ -73,27 +73,27 @@
     }
     /*FILTER E*/
     /*PLACE CARD S*/
-    .place_card_block {
+    .search_cards_box {
         justify-content: center;
         width: 100%;
     }
-    .place_card   {
+    .search_card   {
         width: 32%;
     }
-    .place_card:not(:nth-child(3n)) {
+    .search_card:not(:nth-child(3n)) {
         margin-right: 0px;
     }
-    .place_card:nth-child(2n) {
+    .search_card:nth-child(2n) {
         margin-left: 40px;
     }
-    .place--card--title {
+    .search--card--title {
         font-size: 25px;
         margin-bottom: 20px;
     }
-    .place--card--subtitle {
+    .search--card--subtitle {
 		color: #606f81;
     }
-    .place--card--btn {
+    .search--card--btn {
 		margin-bottom: 0;
 		color: #b98000;
 		background-color: #ffc74a;
@@ -113,7 +113,7 @@
     .container_explore::after {
 		display: none;
 	}
-    .describe_img {
+    .city_img {
         width: 400px;
         height: 400px;
         margin: 0 auto 40px;
@@ -135,7 +135,7 @@
     .newsletter {
         font-size: 20px;
     }
-    .sing--ub--btn {
+    .sing--up--btn {
         margin-bottom: 50px;
     }
     /*SING UP E*/

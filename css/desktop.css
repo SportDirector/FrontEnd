@@ -1,5 +1,5 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .main_scrin {
+    .top_section {
         background-size: 140% 100%;
         background-position: center;
     }
@@ -9,17 +9,17 @@
     .popular_place_card:hover .box--title--card {
         font-size: 30px;
     }
-    .place_card {
+    .search_card {
         width: 31%;
     }
     .city_info {
         width: 95%;
         margin: 0 auto;
     }
-    .info--btn {
+    .describe--btn {
         justify-self: center;
     }
-    .describe_img {
+    .city_img {
         width: 400px;
         height: 400px;
         margin: auto 0;
@@ -29,7 +29,7 @@
         background-position: center;padding: 100px 0;
         padding: 130px 0;
     }
-    .sing--up--main--title {
+    .sing--up--title {
         font-size: 80px;
     }
     .newsletter {

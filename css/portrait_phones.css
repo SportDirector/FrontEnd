@@ -3,7 +3,7 @@
 	.container {
 		width: 100%;
 	}
-	.main_scrin  {
+	.top_section  {
 		background-size: 200% 40%;
 		background-position: top center;
 		padding-bottom: 40px; 
@@ -11,7 +11,7 @@
 	.logo {
 		padding: 0 10px;
 	}
-	.mobile_close {
+	.burger_menu {
 		display: flex;
 		justify-content: space-between;
 		margin: 0 auto 30px;
@@ -64,20 +64,20 @@
 	}
 	/*NAVIGATION END*/
 	/*MAIN TITLE S*/
-	.main_info {
+	.section_info {
 		padding-bottom: 100px;
 	}
-	.main_title {
+	.section_title {
 		font-size: 30px;
 	}
-	.main--title--orange {
+	.section--title--orange {
 		margin-bottom: 8px;
 	}
-	.main_subtitle {
+	.section_subtitle {
 		font-size: 11px;
 	}
 	/*POPULAR PLACE S*/
-	.popular {
+	.popular_place_block {
 		width: 100%;
 		transform: none;
 		padding: 20px 0;
@@ -97,7 +97,7 @@
 		max-width: 372px;
 		margin: 0 auto;
 	}
-	.place {
+	.popular_place_box {
 		flex-direction: column;
 	}
 	.card_text {
@@ -123,10 +123,10 @@
 	}
 	/*POPULAR PLACE E*/
 	/*SEARCH S*/
-	.search {
+	.search_block {
 		padding: 30px 0 0;
 	}
-	.all--place--title {
+	.search--title {
 		margin-bottom: 30px;
 	}
 	.search_box {
@@ -163,25 +163,25 @@
 	}
 	/*FILTER E*/
 	/*PLACE CARD S*/
-	.place_card { 
+	.search_card { 
 		width: 90%;
 		max-width: 375px;
 		margin: 0 auto 20px;
 	}
-	.place_card:not(:last-child) {
+	.search_card:not(:last-child) {
 		margin-right: auto;
 	}
-	.place_card_img {
+	.search_card_img {
 		margin-bottom: 20px;
 	}
-	.place--card--title {
+	.search--card--title {
 		font-size: 20px;
 	}
-	.place--card--subtitle {
+	.search--card--subtitle {
 		margin-bottom: 20px;
 		color: #606f81;
 	}
-	.place--card--btn {
+	.search--card--btn {
 		margin-bottom: 0;
 		color: #b98000;
 		background-color: #ffc74a;
@@ -202,10 +202,10 @@
 		text-align: center;
 		margin: 0 auto;
 	}
-	.describe_img::after {
+	.city_img::after {
 		display: none;
 	}
-	.describe_img {
+	.city_img {
 		width: 100%;
 	}
 	.descride_title {

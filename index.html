@@ -5,10 +5,10 @@
 	<title>Polind</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/mobile.css">
-	<link rel="stylesheet" href="css/large_mobile.css">
-	<link rel="stylesheet" href="css/tablet.css">
-	<link rel="stylesheet" href="css/desctop.css">
+	<link rel="stylesheet" href="css/portrait_phones.css">
+	<link rel="stylesheet" href="css/landscape_phones.css">
+	<link rel="stylesheet" href="css/tablets.css">
+	<link rel="stylesheet" href="css/desktop.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 	integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -16,14 +16,14 @@
 </head>
 <body>
 	<div class="app">
-		<section class="main_scrin">
-			<header class="main_section">	
+		<section class="top_section">
+			<header class="head_line">	
 				<input type="checkbox" name="menu_checkbox" id="menu_checkbox">
 				<nav class="main_nav">
 					<a href="#" class="logo"><h3 class="box_title logo--title">Polind</h3></a>
 					<label for="menu_checkbox" class="toggle menu_item" data-open="Menu" data-close="Close" onclick></label>
 					<ul class="main_menu">
-						<li class="mobile_close">
+						<li class="burger_menu">
 							<a href="#" class="logo"><h3 class="box_title logo--title">Polind</h3></a>
 							<label for="menu_checkbox" class="toggle menu_item" data-open="Menu" data-close="Close" onclick></label>
 						</li>
@@ -35,14 +35,14 @@
 					</ul>
 				</nav>
 			</header>
-			<div class="main_info">
-				<h1 class="main_title">Fall in love<p class="main--title--orange">with Poland</p></h1>
-				<p class="main_subtitle">Best way to find your perfect place in Poland</p>
+			<div class="section_info">
+				<h1 class="section_title">Fall in love<p class="section--title--orange">with Poland</p></h1>
+				<p class="section_subtitle">Best way to find your perfect place in Poland</p>
 				<a href="#" class="place_btn">Search your place</a>
 			</div>
-			<div class="popular">
+			<div class="popular_place_block">
 				<p class="popular_title">Popular places to discover</p>
-				<div class="place">
+				<div class="popular_place_box">
 					<div class="popular_place_card dark_card" class="card_img">
 						<img src="img/photo_dark_left.jpg" alt="">
 					</div>
@@ -76,9 +76,9 @@
 				</div>
 			</div>
 		</section>
-		<section class="search">
-			<div class="container container_all_places">
-				<h3 class="box_title all--place--title">Where you want to go?</h3>
+		<section class="search_block">
+			<div class="container">
+				<h3 class="box_title search--title">Where you want to go?</h3>
 				<div class="search_box">
 					<div class="search_line">
 						<form action="/">
@@ -101,49 +101,49 @@
 						</div>
 					</div>
 				</div>
-				<div class="place_card_block">
-					<div class="place_card box--shadow">
-						<img src="img/places/Poznan.jpg" alt="" class="place_card_img">
-						<h3 class="box_title box--title--card place--card--title">Poznan</h3>
-						<p class="box_subtitle place--card--subtitle">Wielkopolskie</p>
-						<a href="#" class="place_btn place--card--btn box--shadow">Viev offers</a>
+				<div class="search_cards_box">
+					<div class="search_card box--shadow">
+						<img src="img/places/Poznan.jpg" alt="" class="search_card_img">
+						<h3 class="box_title box--title--card search--card--title">Poznan</h3>
+						<p class="box_subtitle search--card--subtitle">Wielkopolskie</p>
+						<a href="#" class="place_btn search--card--btn box--shadow">Viev offers</a>
 					</div>
-					<div class="place_card box--shadow">
-						<img src="img/places/Warsaw.jpg" alt="" class="place_card_img">
-						<h3 class="box_title box--title--card place--card--title">Warsaw</h3>
-						<p class="box_subtitle place--card--subtitle">Mazowieckie</p>
-						<a href="#" class="place_btn place--card--btn box--shadow">Viev offers</a>
+					<div class="search_card box--shadow">
+						<img src="img/places/Warsaw.jpg" alt="" class="search_card_img">
+						<h3 class="box_title box--title--card search--card--title">Warsaw</h3>
+						<p class="box_subtitle search--card--subtitle">Mazowieckie</p>
+						<a href="#" class="place_btn search--card--btn box--shadow">Viev offers</a>
 					</div>
-					<div class="place_card box--shadow">
-						<img src="img/places/Wroclaw.jpg" alt="" class="place_card_img">
-						<h3 class="box_title box--title--card place--card--title">Wroclaw</h3>
-						<p class="box_subtitle place--card--subtitle">Dolnoslaskie</p>
-						<a href="#" class="place_btn place--card--btn box--shadow">Viev offers</a>
+					<div class="search_card box--shadow">
+						<img src="img/places/Wroclaw.jpg" alt="" class="search_card_img">
+						<h3 class="box_title box--title--card search--card--title">Wroclaw</h3>
+						<p class="box_subtitle search--card--subtitle">Dolnoslaskie</p>
+						<a href="#" class="place_btn search--card--btn box--shadow">Viev offers</a>
 					</div>
-					<div class="place_card box--shadow">
-						<img src="img/places/Karpacz.jpg" alt="" class="place_card_img">
-						<h3 class="box_title box--title--card place--card--title">Karpacz</h3>
-						<p class="box_subtitle place--card--subtitle">Dolnoslaskie</p>
-						<a href="#" class="place_btn place--card--btn box--shadow">Viev offers</a>
+					<div class="search_card box--shadow">
+						<img src="img/places/Karpacz.jpg" alt="" class="search_card_img">
+						<h3 class="box_title box--title--card search--card--title">Karpacz</h3>
+						<p class="box_subtitle search--card--subtitle">Dolnoslaskie</p>
+						<a href="#" class="place_btn search--card--btn box--shadow">Viev offers</a>
 					</div>
-					<div class="place_card box--shadow">
-						<img src="img/places/Dolin_olczska.jpg" alt="" class="place_card_img">
-						<h3 class="box_title box--title--card place--card--title">Dolina Olczyska</h3>
-						<p class="box_subtitle place--card--subtitle">Malopolskie</p>
-						<a href="#" class="place_btn place--card--btn box--shadow">Viev offers</a>
+					<div class="search_card box--shadow">
+						<img src="img/places/Dolin_olczska.jpg" alt="" class="search_card_img">
+						<h3 class="box_title box--title--card search--card--title">Dolina Olczyska</h3>
+						<p class="box_subtitle search--card--subtitle">Malopolskie</p>
+						<a href="#" class="place_btn search--card--btn box--shadow">Viev offers</a>
 					</div>
-					<div class="place_card box--shadow">
-						<img src="img/places/Kozy.jpg" alt="" class="place_card_img">
-						<h3 class="box_title box--title--card place--card--title">Kozy</h3>
-						<p class="box_subtitle place--card--subtitle">Slaskie</p>
-						<a href="#" class="place_btn place--card--btn box--shadow">Viev offers</a>
+					<div class="search_card box--shadow">
+						<img src="img/places/Kozy.jpg" alt="" class="search_card_img">
+						<h3 class="box_title box--title--card search--card--title">Kozy</h3>
+						<p class="box_subtitle search--card--subtitle">Slaskie</p>
+						<a href="#" class="place_btn search--card--btn box--shadow">Viev offers</a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="block_explore" id="explore">
-			<div class="container  container_explore">
-				<h2 class="box_title all--place--title explore--title">Explore City</h2>
+			<div class="container container_explore">
+				<h2 class="box_title search--title explore--title">Explore City</h2>
 				<div class="city_info">
 					<div class="city_descride">
 						<h2 class="descride_title">Sandomierz</h2>
@@ -155,17 +155,17 @@
 								The first known historical mention of the city comes from the early 12th-century, when the chronicler Gallus Anonymus ranked it together with Kraków and Wrocław as one of the main cities of Poland. The testament (ca 1115-1118) of Bolesław III Wrymouth, in which he divided Poland among his sons, designated Sandomierz as the capital of one of the resulting principalities, the Duchy of Sandomierz.
 							</p>
 						</div>
-						<a href="#" class="place_btn place--btn--card info--btn">Check offers</a>
+						<a href="#" class="place_btn place--btn--card describe--btn">Check offers</a>
 					</div>
-					<div class="describe_img">
-						<img src="img/sandomierz_big.jpg" alt="" class="describe_img">
+					<div class="city_img">
+						<img src="img/sandomierz_big.jpg" alt="">
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="block_sing_up">
-			<h1 class="main_title sing--up--main--title">Enjoy your journey</h1>
-			<a href="#" class="place_btn place--btn--card sing--ub--btn">Check offers</a>
+			<h1 class="section_title sing--up--title">Enjoy your journey</h1>
+			<a href="#" class="place_btn place--btn--card sing--up--btn">Check offers</a>
 			<p class="newsletter">You can also sign up on our <a href="#">newsletter</a></p>
 		</section>
 	</div>
